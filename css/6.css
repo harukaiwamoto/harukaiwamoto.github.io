@@ -1,0 +1,70 @@
+html {
+    font-family: serif;
+}
+.container {
+    width: 90%;
+    max-width: 1120px;
+    margin: 0 auto;
+    font-size: 20px;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header{
+    padding: 10px 0;
+}
+.logo {
+    font-size: 20px;
+    font-weight: 500;
+    color: red;
+
+}
+
+.header-menu li {
+    margin-left: 40px;
+    background-color: rgb(156, 152, 152);
+}
+.header-menu li a:hover{
+    font-weight: 800;
+
+}
+
+.top{
+    color: red;
+    text-align: center;
+    background-color: yellow;
+    align-items: center;
+}
+
+.contents {
+
+    text-align: center;
+    font-size: 30px;
+  }
+.fade-in-element{
+    opacity: 0;
+    transition: opacity 1.5s, transform 1s;
+}
+/*ラーメン紹介*/
+h3{
+    font-size: 30px;
+}
+.ramen1{
+    width: 48%;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    background-color: rgba(230, 190, 131, 0.233);
+    
+}
+
+img{
+ border-radius: 10px;
+}
+span{
+    font-size: 20px;
+    color: red;
+}
